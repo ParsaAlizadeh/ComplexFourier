@@ -10,7 +10,7 @@ def cmplx(v):
 
 N = 10000
 FPS = 360
-W = 500
+W = 1000
 center = (1 + 1j) * W / 2
 disp = pygame.display.set_mode((W, W))
 clock = pygame.time.Clock()
