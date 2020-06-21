@@ -12,8 +12,3 @@ Then increase N to a bigger number and run again.
 ## Plot
 In running `draw.py`, there are 2 plots. The first one is 
 the abs of each F[i] the second is the angle.
-
-## License
-- MIT
-
-## enjoy!
