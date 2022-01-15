@@ -61,16 +61,16 @@ ind = np.argsort(np.abs(c))[::-1]
 for i in range(len(f)):
     pygame.draw.circle(surf, 0xff0000, vector(f[i] + center), 2)
 
-plot()
+# plot()
 
-start = time.clock()
+start = time.time()
 running = True
 while running:
     for e in pygame.event.get():
         if e.type == QUIT:
             running = False
 
-    timer = (time.clock() - start) % dur
+    timer = (time.time() - start) % dur
 
     disp.blit(surf, (0, 0))
     now = center
