@@ -1,19 +1,14 @@
 # ComplexFourier
 
-## Patern
+## 1) Draw a Patern
 Run `getdata.py` and try to draw a shape (easy or hard).
 Your shape will be saved in `data.txt`.
 
-## Fourier
+## 2) Run Fourier
 In `draw.py` set var N to a small number like 5 and run.
 Then increase N to a bigger number and run again.
-(N should be <= 2000)
-
-## Plot
-In running `draw.py`, there are 2 plots. The first one is 
-the abs of each F[i] the second is the angle.
+You should see better and better function in bigger Ns.
+Keep N smaller than 1000 for performance issues.
 
 ## License
 - MIT
-
-## enjoy!
